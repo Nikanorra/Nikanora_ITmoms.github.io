@@ -1,0 +1,92 @@
+body {
+	padding: 0;
+	margin: 0;
+	
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 1200px
+}
+
+/*СПРЯТАННЫЙ ТЕКСТ логотипа*/
+.hid {
+	font-size: 0;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+/*ПОЗИЦИОННИРОВАНИЕ header*/
+header {
+  box-sizing: border-box; 
+  display: block;
+  width: 100%;
+  height: 55px;
+  padding-top: 40px;
+  margin-bottom: -95px;
+  background-color: transparent;
+  
+  position: relative;
+  z-index: 1;
+}
+
+
+/*ПОЗИЦИОНИРОВАНИЕ логотипа*/
+.logo {
+	float: left;
+	margin: 22px 0px 15px 218px;
+	
+}
+/*ПОЗИЦИОНИРОВАНИЕ меню*/
+.wrapper {
+  float: left;
+  display: block;
+   margin: 0 auto;
+}
+ 
+ .menu {
+	 margin: 0;
+	 padding: 0;
+	 display: block;
+}
+ 
+ .menu li {
+	 float: right;
+	 display: block;
+	 margin-left: 25px;
+}
+ 
+ .menu a {
+	 color: #000;
+	 text-decoration: none;
+	 font-size: 20px;
+}
+
+
+/*ГЛАВНАЯ
+main {
+	background-image: url(../img/1header/Layer_1.png) no-repeat center top/ cover;
+	height: 878px;
+	width: 1572px;
+}
+*/
+
+/*ГОЛУБАЯ*/
+
+/*БЛОГ*/
+
+/*КОМАНДА*/
+
+/*СОЗДАТЬ ПРОЕКТ*/
+
+/*КАРТА*/
+
+/*FOOTER*/
+

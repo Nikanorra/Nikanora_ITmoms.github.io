@@ -1,0 +1,108 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.hid {
+	font-size: 0;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.logo {
+	margin: 22px 0px 15px 218px;
+	
+}
+
+
+
+/*НАВИГАЦИЯ*/
+header {
+	}
+	
+nav {
+  float: right;
+  display: block;
+  width: 100%;
+  height: 55px;
+  padding-top: 40px;
+  margin-bottom: -95px;
+  background-color: transparent;
+  
+  position: relative;
+  z-index: 1;
+}
+
+.menu {
+padding: 0;
+margin: 0;
+display: block;
+}	
+/*
+.menu li {
+	float: left;
+	display: block;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 55px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: white;
+	box-sizing: border-box;
+}
+*/
+/*
+.menu li {
+  display: block;
+  width: 100%;
+  height: 55px;
+  padding-top: 40px;
+  margin-bottom: -95px;
+  background-color: transparent;
+  
+  position: relative;
+  z-index: 1;
+}
+*/
+.menu a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+    position: relative;
+}
+
+/*Серая линия*/
+hr {
+	border: none;
+    background-color: white;
+    color: white;
+    height: 1px;
+	opacity: 0.4;
+	margin-top: 25px;
+	margin-bottom: 277px;
+	} 
+
+	/* Слайдер */
+section {
+	background-image: url(../img/1header/Layer_1.png);
+	padding-bottom: 109px;
+}
+
+.nm {
+	font-size: 152px;
+	color: white;
+	padding: 0;
+    margin: 0;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font: Gotham Bold;
+}
+.lin { 
+	font-size: 24px;
+	color: #166c92;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+

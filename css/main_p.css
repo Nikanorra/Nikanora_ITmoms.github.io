@@ -1,0 +1,395 @@
+body, p, h3 {
+	padding: 0;
+	margin: 0;
+}
+	
+
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+/*header на фоне слайда*/
+header {
+  
+  display: block;
+  width: 100%;
+  height: 100px;
+  padding-top: 25px;
+  margin-bottom: -125px;
+  background-color: transparent;
+  
+  position: relative;
+  z-index: 1;
+  
+}
+.head-line {
+	border-bottom: 1px #777 solid;
+	
+}
+
+div {
+	box-sizing: border-box;
+}
+/*СКРЫТИЕ БРЕНДА*/
+.hid {
+  font-size: 0;
+  line-height: 0;
+  vertical-align: top;
+ }
+ 
+/*ОБЩИЙ КОНТЕЙНЕР*/ 
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*ПОЗИЦИОНИРОВАНИЕ логотипа*/
+.logo {
+	margin-top: 15px;
+	float: left;
+}
+
+/*ПОЗИЦИОНИРОВАНИЕ меню*/
+.wrapper {
+	float: right;
+	margin-top: 45px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 30px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/*Серая линия*/
+*
+hr {
+	border: none;
+    background-color: white;
+    color: white;
+    height: 1px;
+	opacity: 0.4;
+	margin-top: 100px;
+	
+	} 
+
+
+/*СЛАЙДЕР фоновая картинка*/
+.main {
+	margin: 0;
+	padding: 0;
+	background: url(../img/1header/Layer_1.png) no-repeat center top / cover;
+	background-size: cover;
+	background-origin: content-box;
+	height: 880px;
+}
+/*СЛАЙДЕР текст*/
+.nm {
+	font-size: 152px;
+	color: white;
+	padding: 0;
+    margin: 0;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top:390px;
+	font: Gotham Bold;
+}
+.lin { 
+	font-size: 24px;
+	color: #166c92;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*кнопка Scroll down*/
+.scrolldown_btn {
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 auto;
+	margin-top: 120px;
+	color: #fff;
+	display: block;
+	size: 14px;
+}
+.scrolldown {
+	margin: auto;
+    position: absolute;
+    top: 710px; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	display: inline-block;
+	border-radius: 100%;
+	border: 1px  solid;
+	width: 66px;
+	height: 66px;
+	border-color: #fff;
+	background: none;
+	color: #FFF;
+	margin-top: 34px;
+}
+
+/*W*/
+.awersome {
+	background-color: #11749e;
+	height: 740px;
+}
+
+.big_w {
+	font-size: 247px;
+	text-align: center;
+	color: #5993b2;
+	padding-top: 104px;
+}
+
+.awersome_title {
+	display: block;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: -174px;
+	background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+/*меню W*/
+.menu_w {
+	float: right;
+	margin-top: 343px;
+	background-image: url(../img/2about/sprite_feature.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+}
+
+.awersome_numbers {
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.awersome_numbers li {
+	height: 400px;
+	background-image: url(../img/2about/f_one.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+
+}
+
+.awersome_numbers li {
+	float: left;
+	display: block;
+	width: 25%;
+	margin-top: -250px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+
+.awersome_numbers a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+
+
+
+
+/*НОВОСТИ*/
+.news_grey {
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(../img/3news/Layer_2.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #222222;
+	height: 447px;
+	text-align: left;
+	
+}
+.news_white {
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(../img/3news/Layer_3.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-color: #f3f3f3;
+	text-align: right;
+	height: 447px;
+}
+
+.n_date {
+	font-size: 13px;
+	padding-top: 63px;
+	margin-bottom: 20px;
+}
+.n_name {
+	font-size: 25px;
+	text-transform: uppercase;
+	margin: 0 0 47px 0;
+}
+.n_content-g {
+	margin: 0;
+	font-size: 15px;
+	width: 470px;
+	text-align: left;
+	margin-bottom: 115px;
+}
+/*НОВОСТИ текст*/
+.n_content-w {
+	position: absolute;
+	right: 200px;
+	width: 470px;
+	font-size: 15px;
+	text-align: left;
+	margin-bottom: 115px;
+}
+
+/*БЛОГ*/
+.blog {
+	height: 1015px;
+}
+
+.big_b {
+	font-size: 247px;
+	text-align: center;
+	color: #d7d7d7;
+	padding-top: 104px;
+}
+
+.blog_title {
+	display: block;
+	font-size: 37px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+	margin-top: -165px;
+	background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+.blog_d {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 118px;
+}
+
+.menu_b {
+	float: right;
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.blog_fresh li {
+	float: left;
+	display: block;
+	width: 22.5%;
+	height: 502px;
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+	padding-right: 2.5%;
+	
+}
+
+.blog_fresh a {
+	color: #11749e;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+}
+
+.fresh_one {	
+		background-image: url(../img/4blog/Layer_blog.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+}
+
+.fresh_two {
+		background-image: url(../img/4blog/Layer_blog2.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+}
+
+.fresh_three {
+		background-image: url(../img/4blog/Layer_blog3.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+}
+.fresh_four {
+		background-image: url(../img/4blog/Layer_blog.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+}
+
+
+/*CUM*/
+.cum {
+	background-color: #11749e;
+	height: 355px;
+}
+
+.cum_navig {
+	float: left;
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+}
+
+.cum_list li {
+	float: left;
+	display: block;
+	width: 46%;
+	margin-top: 115px;
+	font-size: 18px;
+	background-image: url(../img/5cum/cum.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #000;
+	text-align: center;
+	margin-left: 4%;
+}
+
+.cum_list a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+/*CELL*/
+.cell {
+	background-image: url(../img/6cell/Layer_cell1.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 855px;
+	color: white;
+}
+.cell_nam {
+	
+}
