@@ -193,7 +193,6 @@ hr {
 .awersome_numbers li {
 	float: left;
 	display: block;
-	height: 400px;
 	width: 25%;
 	margin-bottom: 10px;
 	font-size: 18px;
@@ -215,26 +214,26 @@ hr {
 
 /*НОВОСТИ*/
 /*СЕРЫЙ*/
+
 .news_grey {
 	margin: 0 auto;
 	padding: 0;
 	background-color: #222222;
 	height: 474px;
+	position: relative;
 }
+
 .text-g {
-	display: block;
 	float: left;
-	width: 470px;
-	margin: -400px 200px 5px 15px;
-	
-	clear: both;
+	display: block;
+	color: white;
 }
 .pic-grey {
 	display: block;
-	float: right;
-	clear: both;
-	margin-top: -347px;
-	padding-left: 117px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 50%;
 }
 
 /*БЕЛЫЙ*/
@@ -242,18 +241,22 @@ hr {
 	margin: 0 auto;
 	padding: 0;
 	background-color: #f3f3f3;
-	height: 475px;
+	height: 474px;
+	position: relative;
 }
 .text-w {
-	display: block;
 	float: right;
-	width: 400px;
+	display: block;
+	color: black;
 }
 .pic-white {
 	display: block;
-	float: left;
-	clear: both;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 50%;
 }
+
 /*НОВОСТИ текст*/
 .n_date {
 	font-size: 13px;
@@ -272,10 +275,10 @@ hr {
 	text-align: left;
 	margin-bottom: 115px;
 }
-
 .n_content-w {
-	right: 200px;
+	margin: 0;
 	font-size: 15px;
+	width: 470px;
 	text-align: left;
 	margin-bottom: 115px;
 }
@@ -397,28 +400,33 @@ hr {
 	padding-bottom: 500px;
 	color: white;
 }
-.container_pic{
+.container_pic {
 	background-image: url(../img/6cell/cell.png);
 	background-repeat: no-repeat;
 	background-position: right center;
-	
 	z-index: 1;
+	margin-bottom: 100px;
 }
+
 .cell_nam {
 	font-size: 25px;
 	text-transform: uppercase;
 	margin-bottom: 40px;
-}
-.cell_descript {
-	font-size: 15px;
-	margin-bottom: 69px;
+	padding-top: 226px;
 }
 .container_cell {
-	width: 400px;
 	height: 470px;
+	width: 500px;
 	padding-top: 227px;
 	margin-left: 15px;
 }
+.cell-descript {
+	display: block;
+	position: relative;
+	font-size: 15px;
+	margin-bottom: 69px;
+}
+
 .cell_nav {
 	display: block;
 	margin-top: 69px;
