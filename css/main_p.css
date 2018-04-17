@@ -198,10 +198,11 @@ hr {
 .awersome_numbers li {
 	float: left;
 	display: block;
-	width: 25%;
+	width: 22%;
 	font-size: 18px;
 	color: #fff;
 	text-align: center;
+	margin-left: 2%;
 	
 }
 
