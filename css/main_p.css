@@ -67,38 +67,6 @@ table {
   *zoom: 1;
 }
 
-/*
-  ========================================
-  Полосы
-  ========================================
-*/
-
-.row,
-.row-alt {
-	min-width: 960px;
-}
-.row-alt {
-  background: #fff;
-  padding: 100px 0 100px 0;
-}
-
-.row{
-	background: #fff;
-	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-	padding: 66px 0 44px 0;
-    }
-.third {
-  margin-bottom: 10px;
-}
-.third1 {
-  margin-bottom: 10px;
-}
-.map {
-	height: 264px;
-}
 
 
 body, p, h3 {
@@ -108,7 +76,7 @@ body, p, h3 {
 
 body {
 	min-width: 1200px;
-	width: 100%;
+
 }
 
 div {
@@ -118,7 +86,6 @@ div {
 /*ОБЩИЙ КОНТЕЙНЕР*/ 
 .container {
     width: 1200px;
-	width: 100%;
     margin: 0 auto;
 	padding: 0;
 }
@@ -157,6 +124,30 @@ header {
 
 /*ПОЗИЦИОНИРОВАНИЕ меню*/
 .wrapper {
+	display: block;
+	float: right;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+/*.wrapper {
 	float: right;
 	margin-top: 30px;
 	display: block;
@@ -173,20 +164,20 @@ header {
 }
  
 .menu-list a {
+	display: block;
 	font-size: 20px;
     text-align: center;
    	text-decoration: none;
 	color: white;
-	width: 12%;
-	margin-right: 30px;
+	width: 9%;
+	margin-right: 3%;
 }
-
+*/
 
 /*Серая линия*/
 *
 hr {
 	border: none;
-    background-color: white;
     color: white;
     height: 1px;
 	opacity: 0.4;
@@ -212,8 +203,8 @@ hr {
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
-	padding-top:390px;
-	font: Gotham Bold;
+	padding-top: 390px;
+	
 }
 .lin { 
 	font-size: 24px;
