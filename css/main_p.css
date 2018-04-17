@@ -295,7 +295,7 @@ hr {
 
 /*БЛОГ*/
 .blog {
-	height: 1015px;
+	padding-bottom: 500px;
 }
 
 .big_b {
@@ -333,7 +333,6 @@ hr {
 	float: left;
 	display: block;
 	width: 22.5%;
-	height: 502px;
 	font-size: 18px;
 	color: #000;
 	text-align: center;
@@ -476,7 +475,7 @@ hr {
 
 /*T*/
 .team {
-	padding-bottom: 650px;
+	height: 1015px;
 }
 
 .big_t {
