@@ -1,46 +1,3 @@
-
-body, p, h3 {
-	padding: 0;
-	margin: 0;
-}
-
-body {
-	min-width: 1200px;
-}
-.clearfix:after {
-	content:'';
-	display: table;
-	width: 100%;
-	clear: both;
-}
-/*ОБЩИЙ КОНТЕЙНЕР*/ 
-.container {
-	width: 1200px;
-	margin: 0 auto;
-}
-
-/*header на фоне слайда*/
-header {
-  display: block;
-  width: 100%;
-  height: 100px;
-  padding-top: 25px;
-  margin-bottom: -125px;
-  background-color: transparent;
-  
-  position: relative;
-  z-index: 1;
-  
-}
-.head-line {
-	border-bottom: 1px #777 solid;
-	
-}
-
-div {
-	box-sizing: border-box;
-}
-
  /*СКРЫТИЕ БРЕНДА*/
 .hid {
   font-size: 0;
@@ -572,11 +529,3 @@ border-width: 1px;
 	background-size: cover;
 	height: 335px;
 }
-
-
-
-
-
-
-
-
