@@ -178,13 +178,13 @@ hr {
 /*меню W*/
 .menu_w {
 	float: right;
-}
-
-.awersome_numbers {
 	padding: 0;
 	margin: 0 auto;
 	display: block;
-	
+}
+
+.awersome_numbers {
+	height: 108px;
 }
 .sprite {
 	background-image: url(../img/2about/sprite_W.png);
