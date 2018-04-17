@@ -134,7 +134,7 @@ hr {
 }
 .scrolldown {
 	margin: auto;
-    position: absolute;
+    position: relative;
     top: 710px; 
 	left: 0; 
 	bottom: 0; 
