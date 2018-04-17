@@ -8,6 +8,8 @@ body {
 	min-width: 1200px;
 	width: 100%;
 }
+
+.clearfix::before,
 .clearfix:after {
 	content:'';
 	display: table;
@@ -21,9 +23,11 @@ div {
 
 /*ОБЩИЙ КОНТЕЙНЕР*/ 
 .container {
-	width: 1200px;
-	margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto;
+	padding: 0;
 }
+
 
 /*header на фоне слайда*/
 header {
@@ -57,6 +61,7 @@ header {
 }
 
 /*ПОЗИЦИОНИРОВАНИЕ меню*/
+
 .wrapper {
 	float: right;
 	margin-top: 30px;
@@ -64,29 +69,22 @@ header {
 	width: 870px;
 }
 
-.menu {
-	list-style: none;
-    text-align: right;
-}
-
 .menu-list {
 	padding-left: 15px;
 	display: block;
 	float: left;
-}
-.menu-list li a {
-	display: inline-block;
 	color: #fff;
-	text-decoration: none;
 	font-size: 20px;
 }
  
-.menu-list li {
+.menu-list a {
+	display: inline-block;
 	font-size: 20px;
-    margin-left: 50px;
-    height: 60px
-	
+    text-align: center;
+   	text-decoration: none;
+	color: white;
 }
+
 
 /*Серая линия*/
 *
