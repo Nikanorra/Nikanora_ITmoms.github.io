@@ -130,11 +130,11 @@ hr {
 	margin-top: 120px;
 	color: #fff;
 	display: block;
-	size: 14px;
+	font-size: 14px;
 }
 .scrolldown {
-	margin: auto;
-    position: relative;
+	margin: 0 auto;
+    position: absolute;
     top: 710px; 
 	left: 0; 
 	bottom: 0; 
@@ -223,7 +223,7 @@ hr {
 	margin: 0 auto;
 	padding: 0;
 	background-color: #222222;
-	height: 474px;
+	height: 450px;
 	position: relative;
 }
 
@@ -235,6 +235,8 @@ hr {
 .pic-grey {
 	display: block;
 	position: absolute;
+	width: 50%;
+	height: 100%;
 	top: 0;
 	right: 0;
 }
@@ -255,6 +257,8 @@ hr {
 .pic-white {
 	display: block;
 	position: absolute;
+	width: 50%;
+	height: 100%;
 	top: 0;
 	left: 0;
 }
