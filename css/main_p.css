@@ -74,13 +74,19 @@ header {
 	display: block;
 	float: left;
 }
-
-.menu-list a {
+.menu-list {
+	display: inline-block;
 	color: #fff;
 	text-decoration: none;
 	font-size: 20px;
 }
-
+ 
+.menu-list li {
+	font-size: 20px;
+	color: white;
+    margin-left: 50px;
+    height: 60px
+}
 
 /*Серая линия*/
 *
