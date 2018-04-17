@@ -401,10 +401,7 @@ hr {
 	padding-bottom: 900px;
 	color: white;
 }
-.container_txt {
-	float: left;
-	width: 500px;
-}
+
 .container_pic {
 	display: block;
 	background-image: url(../img/6cell/cell.png);
@@ -424,10 +421,10 @@ hr {
 }
 
 .receptacle_cell {
-	margin: 0 auto;
-	padding: 0;
+	margin-left: 25px;
 	float: left;
 	margin-left: 30px;
+	width: 500px;
 	
 }
 .cell-descript {
