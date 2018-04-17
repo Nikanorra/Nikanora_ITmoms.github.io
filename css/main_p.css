@@ -6,6 +6,7 @@ body, p, h3 {
 
 body {
 	min-width: 1200px;
+	width: 100%;
 }
 .clearfix:after {
 	content:'';
@@ -13,6 +14,11 @@ body {
 	width: 100%;
 	clear: both;
 }
+
+div {
+	box-sizing: border-box;
+}
+
 /*ОБЩИЙ КОНТЕЙНЕР*/ 
 .container {
 	width: 1200px;
@@ -36,11 +42,6 @@ header {
 	border-bottom: 1px #777 solid;
 	
 }
-
-div {
-	box-sizing: border-box;
-}
-
  /*СКРЫТИЕ БРЕНДА*/
 .hid {
   font-size: 0;
@@ -48,10 +49,10 @@ div {
   vertical-align: top;
  }
 
-
 /*ПОЗИЦИОНИРОВАНИЕ логотипа*/
 .logo {
 	margin-top: 15px;
+	margin-left: 15px;
 	float: left;
 }
 
