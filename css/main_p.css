@@ -156,7 +156,6 @@ header {
 }
 
 /*ПОЗИЦИОНИРОВАНИЕ меню*/
-
 .wrapper {
 	float: right;
 	margin-top: 30px;
@@ -165,19 +164,21 @@ header {
 }
 
 .menu-list {
-	padding-left: 15px;
+
 	display: block;
 	float: left;
 	color: #fff;
 	font-size: 20px;
+
 }
  
 .menu-list a {
-	display: inline-block;
 	font-size: 20px;
     text-align: center;
    	text-decoration: none;
 	color: white;
+	width: 12%;
+	margin-right: 30px;
 }
 
 
