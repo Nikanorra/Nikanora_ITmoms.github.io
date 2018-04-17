@@ -73,12 +73,14 @@ header {
 	float: left;
 	display: block;
 	margin-right: 30px;
+	display: inline-block;
 }
 
 .menu a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 20px;
+	display: inline-block;
 }
 
 
