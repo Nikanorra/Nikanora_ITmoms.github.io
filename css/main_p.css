@@ -160,7 +160,7 @@ hr {
 	font-size: 247px;
 	text-align: center;
 	color: #5993b2;
-	padding-top: 104px;
+	padding-top: 50px;
 }
 
 .awersome_title {
@@ -186,6 +186,7 @@ hr {
 .awersome_numbers {
 	height: 108px;
 }
+
 .sprite {
 	background-image: url(../img/2about/sprite_W.png);
 	background-repeat: no-repeat;
