@@ -198,11 +198,10 @@ hr {
 	float: left;
 	display: block;
 	width: 25%;
-	margin-bottom: 10px;
 	font-size: 18px;
 	color: #fff;
 	text-align: center;
-	margin-bottom: 128px;
+	
 }
 
 .awersome_numbers a {
@@ -234,11 +233,9 @@ hr {
 }
 .pic-grey {
 	display: block;
-	position: absolute;
+	float: right;
 	width: 50%;
-	height: 100%;
-	top: 0;
-	right: 0;
+	height: 450px;
 }
 
 /*БЕЛЫЙ*/
@@ -256,11 +253,9 @@ hr {
 }
 .pic-white {
 	display: block;
-	position: absolute;
+	float: left;
 	width: 50%;
-	height: 100%;
-	top: 0;
-	left: 0;
+	height: 474px;
 }
 
 /*НОВОСТИ текст*/
@@ -411,13 +406,14 @@ hr {
 	width: 500px;
 }
 .container_pic {
+	display: block;
 	background-image: url(../img/6cell/cell.png);
 	background-repeat: no-repeat;
+	background-position: center;
 	float: right;
-	width: 500px;
-	height: 650px;
-	margin-top: 100px;
-	padding-right: 200px;
+	width: 390px;
+	height: 651px;
+	margin-top: 100px;	
 }
 
 .cell_nam {
@@ -450,21 +446,26 @@ hr {
 	text-decoration: none;
 	font-size: 15px;
 	text-transform: uppercase;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	
 }
 .navcell01 {
 	display: inline-block;
 	background-color: #11749e;
-	padding: 10px 136px 10px 20px;
+	width: 370px;
 }
+
 .navcell02 {
 	display: inline-block;
 	background-color: #11749e;
-	padding: 10px 200px 10px 20px;
+	width: 400px;
 }
 .navcell03 {
 	display: inline-block;
 	background-color: #11749e;
-	padding: 10px 145px 10px 20px;
+	width: 430px;
 }
 
 /*T*/
