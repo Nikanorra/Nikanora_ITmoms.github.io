@@ -99,7 +99,7 @@ header {
   padding-top: 25px;
   margin-bottom: -125px;
   background-color: transparent;
-  
+  font-family: Myriad Pro;
   position: relative;
   z-index: 1;
  }
@@ -172,7 +172,7 @@ hr {
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 390px;
-	
+	font-family: GothamBold;
 }
 .lin { 
 	font-size: 24px;
@@ -180,6 +180,7 @@ hr {
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
+	font-family: GothamMedium;
 }
 
 /*кнопка Scroll down*/
@@ -192,6 +193,7 @@ hr {
 	color: #fff;
 	display: block;
 	font-size: 14px;
+	font-family: GothamMedium;
 }
 .scrolldown {
 	margin: 0 auto;
@@ -222,6 +224,7 @@ hr {
 	text-align: center;
 	color: #5993b2;
 	padding-top: 30px;
+	font-family: RobotoBoldCondensed;
 }
 
 .awersome_title {
@@ -234,6 +237,7 @@ hr {
 	background-color: transparent;
     position: relative;
     z-index: 1;
+	font-family: GothamMedium;
 }
 
 /*меню W*/
@@ -261,12 +265,13 @@ hr {
 .awersome_numbers li {
 	float: left;
 	display: block;
-	width: 22%;
+	width: 23%;
 	font-size: 18px;
 	color: #fff;
 	text-align: center;
-	margin-left: 3%;
+	margin-left: 2%;
 	overflow: hidden;
+	font-family: GothamBookRegular;
 }
 
 .awersome_numbers a {
@@ -277,6 +282,7 @@ hr {
 	text-transform: uppercase;
 	margin-bottom: 22px;
 	font-weight: bold;
+	font-family: GothamMedium;
 }
 
 
@@ -333,11 +339,13 @@ hr {
 	font-size: 13px;
 	padding-top: 63px;
 	margin-bottom: 20px;
+	font-family: GothamBookRegular;
 }
 .n_name {
 	font-size: 25px;
 	text-transform: uppercase;
 	margin: 0 0 47px 0;
+	font-family: GothamMedium;
 }
 .n_content-g {
 	margin: 0;
@@ -345,6 +353,7 @@ hr {
 	width: 470px;
 	text-align: left;
 	margin-bottom: 115px;
+	font-family: GothamBookRegular;
 }
 .n_content-w {
 	margin: 0;
@@ -352,6 +361,7 @@ hr {
 	width: 470px;
 	text-align: left;
 	margin-bottom: 115px;
+	font-family: GothamBookRegular;
 }
 
 /*БЛОГ*/
@@ -364,6 +374,7 @@ hr {
 	text-align: center;
 	color: #d7d7d7;
 	padding-top: 104px;
+	font-family: RobotoBoldCondensed;
 }
 
 .blog_title {
@@ -377,11 +388,13 @@ hr {
     position: relative;
     z-index: 1;
 	padding-bottom: 200px;
+	font-family: GothamMedium;
 }
 
 .blog_d {
 	font-size: 30px;
 	text-align: center;
+	font-family: GothamBookRegular;
 }
 
 .menu_b {
@@ -398,6 +411,7 @@ hr {
 	text-align: center;
 	padding-right: 2.4%;
 	padding-top: 80px;
+	font-family: GothamBookRegular;
 }
 
 .blog_fresh a {
@@ -406,6 +420,7 @@ hr {
 	text-transform: uppercase;
 	font-size: 15px;
 	text-align: center;
+	font-family: GothamMedium;
 }
 
 
@@ -440,6 +455,7 @@ hr {
 	text-decoration: none;
 	font-size: 15px;
 	height: 85px;
+	font-family: GothamBookRegular;
 }
 .cum_txt1 {
 	float: left;
@@ -484,6 +500,7 @@ hr {
 	text-transform: uppercase;
 	margin-bottom: 40px;
 	padding-top: 226px;
+	font-family: GothamMedium;
 }
 
 .receptacle_cell {
@@ -498,11 +515,13 @@ hr {
 	position: relative;
 	font-size: 15px;
 	margin-bottom: 69px;
+	font-family: GothamBookRegular;
 }
 
 .cell_nav {
 	display: block;
 	margin-top: 69px;
+	font-family: GothamMedium;
 }
 .cell_nav a {
 	color: #fff;
@@ -543,6 +562,7 @@ hr {
 	text-align: center;
 	color: #d7d7d7;
 	padding-top: 104px;
+	font-family: RobotoBoldCondensed;
 }
 
 .team_title {
@@ -555,15 +575,18 @@ hr {
 	background-color: transparent;
     position: relative;
     z-index: 1;
+	font-family: GothamMedium;
 }
 .team_d {
 	font-size: 30px;
 	text-align: center;
 	padding-top: 118px;
+	font-family: GothamBookRegular;
 }
 
 .menu_team {
 	padding-top: 70px;
+	font-family: GothamMedium;
 }
 
 .team_fresh li {
@@ -605,11 +628,13 @@ hr {
 	background-size: cover;
 	height: 850px;
 }
+
 .big_c {
 	font-size: 247px;
 	text-align: center;
 	color: #d7d7d7;
 	padding-top: 104px;
+	font-family: RobotoBoldCondensed;
 }
 
 .contact_title {
@@ -623,6 +648,7 @@ hr {
     position: relative;
     z-index: 1;
 	margin-bottom: 150px;
+	font-family: GothamMedium;
 }
 .identity {
 	background-color: transparent;
@@ -630,6 +656,7 @@ hr {
 	width: 28.7%;
     height: 38px;
 	padding-left: 22px;
+	
 }
 
 .identity_mid {
@@ -652,6 +679,7 @@ hr {
 	text-transform: uppercase;
 	padding: 19px 64px 27px 64px;
 	margin: 47px 534px;
+	font-family: GothamMedium;
 }
 
 /*MAP*/
