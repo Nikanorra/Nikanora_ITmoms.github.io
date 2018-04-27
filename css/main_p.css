@@ -142,6 +142,13 @@ header {
 	text-decoration: none;
 }
 
+/*подсветка при наведении в шапке*/
+ .menu a:hover { 
+     border-bottom-width : 6px;
+     border-bottom-style : solid;	
+     border-bottom-color : #11749e;
+	 padding-bottom: 13px;
+}
 
 /*Серая линия*/
 *
@@ -182,6 +189,7 @@ hr {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: GothamMedium;
+	letter-spacing: 20px;
 }
 
 /*кнопка Scroll down*/
@@ -244,8 +252,6 @@ hr {
 /*меню W*/
 .menu_w {
 	float: right;
-	padding: 0;
-	margin: 0 auto;
 	display: block;
 }
 
@@ -267,23 +273,26 @@ hr {
 	float: left;
 	display: block;
 	width: 23%;
-	font-size: 18px;
+	font-size: 15px;
 	color: #fff;
 	text-align: center;
 	margin-left: 2%;
 	overflow: hidden;
 	font-family: GothamBookRegular;
+	line-height: 22px;
 }
 
 .awersome_numbers a {
 	color: #fff;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 18px;
+	line-height: 65px;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 22px;
 	font-weight: bold;
 	font-family: GothamMedium;
+	
 }
 
 
@@ -291,8 +300,7 @@ hr {
 /*СЕРЫЙ*/
 
 .news_grey {
-	margin: 0 auto;
-	padding: 0;
+
 	background-color: #222222;
 	height: 450px;
 	position: relative;
@@ -349,25 +357,24 @@ hr {
 	font-family: GothamMedium;
 }
 .n_content-g {
-	margin: 0;
 	font-size: 15px;
+	line-height: 20px;
 	width: 470px;
 	text-align: left;
-	margin-bottom: 115px;
 	font-family: GothamBookRegular;
 }
 .n_content-w {
-	margin: 0;
+	
 	font-size: 15px;
+	line-height: 20px;
 	width: 470px;
 	text-align: left;
-	margin-bottom: 115px;
 	font-family: GothamBookRegular;
 }
 
 /*БЛОГ*/
 .blog {
-	padding-bottom: 500px;
+	padding-bottom: 600px;
 }
 
 .big_b {
@@ -407,7 +414,8 @@ hr {
 	float: left;
 	display: block;
 	width: 22.5%;
-	font-size: 18px;
+	font-size: 15px;
+	line-height: 20px;
 	color: #000;
 	text-align: center;
 	padding-right: 2.4%;
@@ -419,7 +427,8 @@ hr {
 	color: #11749e;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 18px;
+	line-height: 83px;
 	text-align: center;
 	font-family: GothamMedium;
 }
@@ -449,7 +458,8 @@ hr {
 	background-repeat: no-repeat;
 	background-position: left top;
 	margin-top: 116px;
-	font-size: 18px;
+	font-size: 15px;
+	line-height: 20px;
 	color: #000;
 	text-align: left;
 	color: #fff;
@@ -460,17 +470,17 @@ hr {
 }
 .cum_txt1 {
 	float: left;
-	width: 490px;
+	width: 570px;
 }
 .cum_txt2 {
 	float: right;
-	width: 490px;
+	width: 570px;
 }
 
 .cum_txt1 li, .cum_txt2 li {
 	display: block;
 	float: right;
-	width: 370px;
+	width: 450px;
 	clear: both;
 }
 
@@ -515,6 +525,7 @@ hr {
 	display: block;
 	position: relative;
 	font-size: 15px;
+	line-height: 25px;
 	margin-bottom: 69px;
 	font-family: GothamBookRegular;
 }
