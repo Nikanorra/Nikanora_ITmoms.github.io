@@ -67,8 +67,7 @@ table {
   *zoom: 1;
 }
 
-
-
+/*
 body, p, h3 {
 	padding: 0;
 	margin: 0 auto;
@@ -79,15 +78,13 @@ body {
 }
 
 div {
-
+	box-sizing: border-box;
 }
-
+*/
 
 /*ОБЩИЙ КОНТЕЙНЕР*/ 
 .container {
     width: 1200px;
-    margin: 0 auto;
-	padding: 0;
 }
 
 
@@ -161,8 +158,6 @@ hr {
 	
 /*СЛАЙДЕР фоновая картинка*/
 .main {
-	margin: 0;
-	padding: 0;
 	background: url(../img/1header/Layer_1.png) no-repeat center top / cover;
 	background-size: cover;
 	background-origin: content-box;
@@ -172,8 +167,6 @@ hr {
 .nm {
 	font-size: 152px;
 	color: white;
-	padding: 0;
-    margin: 0;
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
@@ -201,8 +194,7 @@ hr {
 	font-family: GothamMedium;
 }
 .scrolldown {
-	margin: 0 auto;
-    position: absolute;
+	position: absolute;
     top: 710px; 
 	left: 0; 
 	bottom: 0; 
