@@ -195,8 +195,6 @@ hr {
 .scrolldown_btn {
 	text-align: center;
 	display: inline-block;
-	margin: 0 auto;
-	padding: 0 auto;
 	margin-top: 120px;
 	color: #fff;
 	display: block;
@@ -322,8 +320,6 @@ hr {
 
 /*БЕЛЫЙ*/
 .news_white {
-	margin: 0 auto;
-	padding: 0;
 	background-color: #f3f3f3;
 	height: 474px;
 	position: relative;
