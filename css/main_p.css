@@ -67,24 +67,21 @@ table {
   *zoom: 1;
 }
 
-/*
-body, p, h3 {
-	padding: 0;
-	margin: 0 auto;
-}
 
 body {
 	min-width: 1200px;
+	width: 100%;
 }
 
 div {
 	box-sizing: border-box;
 }
-*/
+
 
 /*ОБЩИЙ КОНТЕЙНЕР*/ 
 .container {
     width: 1200px;
+
 }
 
 
@@ -194,7 +191,8 @@ hr {
 	font-family: GothamMedium;
 }
 .scrolldown {
-	position: absolute;
+	margin: 0 auto;
+    position: absolute;
     top: 710px; 
 	left: 0; 
 	bottom: 0; 
