@@ -239,6 +239,7 @@ hr {
 	position: absolute;
     top: 710px; 
 	left: 760px; 
+	right: 760px;
 	display: inline-block;
 	border-radius: 100%;
 	border: 1px  solid;
