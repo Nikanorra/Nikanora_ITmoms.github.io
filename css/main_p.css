@@ -238,9 +238,8 @@ hr {
 .scrolldown {
 	position: absolute;
     top: 710px; 
-	left: 50%;
-	right: 50%;
-	display: inline-block;
+	left: 48%;
+	
 	border-radius: 100%;
 	border: 1px  solid;
 	width: 66px;
