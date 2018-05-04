@@ -111,12 +111,10 @@ header {
 	
 }
 .head-line-sticky {
-
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-
 	padding: 0 0 7px 0;
 	background-color: rgba(0, 0, 0, 0.75);
 	z-index: 10;
@@ -217,12 +215,11 @@ hr {
 	font-family: GothamMedium;
 }
 
-
 .scrolldown {
 	position: absolute;
     top: 744px; 
 	margin-left: 576px;
-	border-radius: 100%;
+	border-radius: 50%;
 	border: 1px  solid;
 	width: 66px;
 	height: 66px;
@@ -232,22 +229,33 @@ hr {
 }
 
 /*JS к кнопке прокрутки вверх*/
-.toup {
-	position: fixed;
-	right: 20px;
-	bottom: 20px;
-    width: 40px;
-	height: 40px;
-	text-align: center;
-	line-height: 40px;
-	background: blue;
-	color: white;
-    display: none;
-}
-.toup-visible {
-	display: block;
+.scroll_up {
+  position: relative;
 }
 
+.toup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #11749e;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: none;
+  z-index: 10;
+  	line-height: 48px;
+}
+
+
+.toup_visible {
+  display: block;
+}
 
 /*W*/
 .awersome {
