@@ -176,8 +176,6 @@ hr {
 	
 /*СЛАЙДЕР фоновая картинка*/
 .main {
-	margin: 0;
-	padding: 0;
 	background: url(../img/1header/Layer_1.png) no-repeat center top / cover;
 	background-size: cover;
 	background-origin: content-box;
@@ -187,8 +185,6 @@ hr {
 .nm {
 	font-size: 152px;
 	color: white;
-	padding: 0;
-    margin: 0;
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
@@ -217,9 +213,7 @@ hr {
 }
 
 .scrolldown {
-	
-	margin-right: 45%;
-	margin-left: 45%;
+	margin-left: 760px;
 	border-radius: 50%;
 	border: 1px  solid;
 	width: 66px;
@@ -359,8 +353,6 @@ hr {
 
 /*БЕЛЫЙ*/
 .news_white {
-	margin: 0 auto;
-	padding: 0;
 	background-color: #f3f3f3;
 	height: 474px;
 	position: relative;
