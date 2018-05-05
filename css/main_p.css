@@ -223,6 +223,11 @@ button.scrolldown {
 	border-color: #fff;
 	background: none;
 	color: #FFF;
+	outline: none;
+}
+
+button {
+    
 }
 
 /*JS к кнопке прокрутки вверх*/
