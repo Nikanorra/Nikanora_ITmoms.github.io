@@ -226,10 +226,6 @@ button.scrolldown {
 	outline: none;
 }
 
-button {
-    
-}
-
 /*JS к кнопке прокрутки вверх*/
 .scroll_up {
   position: relative;
